@@ -1,0 +1,80 @@
+body {
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+  margin: 1em;
+}
+
+/* Estilos CARD */
+.card-container{
+  padding-bottom: 1em;
+}
+.card-title {
+  font-size: 1.3em;
+  width: 90%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: auto;
+  padding-bottom: 0.5em;
+}
+.card-espaciado {
+  padding: 1em;
+}
+.card-center{
+  text-align: center;
+}
+.card-precio-tachado {
+  text-decoration: line-through;
+}
+.card-precio-descuento {
+  color: #f02828;
+}
+a.card-more-colors {
+  text-decoration: none;
+  color: #8b8b8b;
+}
+.card-price {
+  line-height: 4em;
+}
+
+/* Estilos SearchBar */
+.searchbar-container{
+  padding-bottom: 2em;
+}
+
+/* Estilos SORT */
+.sort-button {
+  font-size: 3em;
+  line-height: 0.5em;
+  float: right;
+}
+
+/* Estilos Modal */
+.modal-image {
+  max-height: 7em;
+  width: auto;
+}
+.modal-text {
+  font-size: 1.3em;
+}
+.modal-price {
+  font-size: 1.1em;
+}
+
+
+.search-box-container {
+  border: 1px solid #ced4da;
+  color: #cdcdcd;
+  display: flex;
+  border-radius: 0.375rem;
+}
+
+.search-box-icon {
+  vertical-align: middle;
+  line-height: 3em;
+  padding-left: 0.3em;
+}
+
+.search-box-input {
+  border: none;
+}
